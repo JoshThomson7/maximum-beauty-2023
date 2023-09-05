@@ -7,9 +7,9 @@ $baseFontSize: 1rem; // 16px
 $baseFontColor: #000;
 
 // Colours
-$primary: #203e5f;
+$primary: #C3ABB5;
 $primaryLight: #F9ECED;
-$secondary: #eec550;
+$secondary: #dbadc0;
 $lightgrey: #F3F4F5;
 $text: $baseFontColor;
 $textLight: #435366;
@@ -20,12 +20,12 @@ $success: #64c82d;
 $warning: #ffc458;
 $error: tomato;
 $white: #fff;
-
+ 
 :root {
 
     // Colors
-    --fl1-primary: #203e5f;
-    --fl1-secondary: #eec550;
+    --fl1-primary: #C3ABB5;
+    --fl1-secondary: #dbadc0;
     --fl1-lightgrey: #F3F4F5;
     --fl1-text: #5A5072;
     --fl1-text-light: #b2aebd;

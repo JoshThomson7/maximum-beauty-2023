@@ -45,7 +45,7 @@ $overlay_opacity = get_sub_field('cta_overlay_opacity') ?? 0;
 	</article>
 
 	<?php if($button_link): ?>
-		<a href="<?php echo $button_link; ?>" class="button secondary"<?php echo FL1_Helpers::link_target($button_link) ?>>
+		<a href="<?php echo $button_link; ?>" class="button primary"<?php echo FL1_Helpers::link_target($button_link) ?>>
 			<?php echo $button_label; ?>
 		</a>
 	<?php endif; ?>
