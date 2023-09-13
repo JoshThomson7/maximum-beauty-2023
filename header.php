@@ -40,7 +40,7 @@
 
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/max-beauty-logo.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
+                                <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/maximum_beauty_logo_rgb.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
                             </a>
                         </div><!-- logo -->
                         <?php include FL1_PATH . '/modules/mega-menu.php'; ?>
@@ -50,8 +50,8 @@
                         <nav class="top-nav">
                             <ul>
                                 <li>
-                                    <a href="#" class="button primary tiny">
-                                        Book Appointment
+                                    <a href="https://online.premiersoftware.co.uk/Book-OnlineV2/?i=8ff029c999aedcef50c1c949eaf4e07a" target="_blank" class="button primary tiny">
+                                        Appointments
                                     </a>
                                 </li>
                             </ul>

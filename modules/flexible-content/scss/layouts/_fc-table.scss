@@ -22,7 +22,7 @@ Table
     table { width:100%;
         thead {
             @include breakpoint(mamabear) { display: none;}
-            th { color: var(--fl1-text); padding:10px; text-align:left; font-size:16px; font-weight: 600; border-bottom: 1px var(--fl1-border) solid;}
+            th { color: var(--fl1-text); padding:10px; text-align:left; font-size:20px; border-bottom: 1px var(--fl1-border) solid; font-family: 'Fraunces Regular';}
         }
 
         tbody {
@@ -34,7 +34,7 @@ Table
                 @include breakpoint(mamabear) { background: none;}
             }
 
-            td { color:inherit; padding:10px; text-align:left; font-size:14px; line-height:20px; border-right:1px var(--fl1-border) solid; border-bottom:1px var(--fl1-border) solid;
+            td { color:inherit; padding:10px; text-align:left; font-size:16px; line-height:20px; border-right:1px var(--fl1-border) solid; border-bottom:1px var(--fl1-border) solid;
                 @include breakpoint(mamabear) { width: 100%; display: block;
                     &:nth-child(even) { background-color:lighten($lightgrey, 1%);}
                     &:before { content: attr(data-th); width: 100%; display: block; padding: 10px 0; color:var(--fl1-primary); font-size: 18px; font-weight: 600;}

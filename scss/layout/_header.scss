@@ -52,16 +52,16 @@ header.header {
 			}
 
             .logo {
-                width: 180px;
+                width: 260px;
                 transition: all 0.4s ease;
 
 				@include breakpoint(brotherbear) {
-					width: 170px;
+					width: 200px;
 				}
 
 				@include breakpoint(560px) {
 					margin: 0 auto;
-					width: 160px;
+					width: 180px;
 				}
 				
                 a {

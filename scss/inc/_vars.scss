@@ -1,15 +1,15 @@
 // https://designs.ai/colors/palette/1427
 
 // Fonts
-$primaryFont: 'Quicksand', sans-serif;
-$secondaryFont: 'Quicksand', sans-serif;
+$primaryFont: 'Fraunces Light', sans-serif;
+$secondaryFont: 'Fraunces Regular', sans-serif;
 $baseFontSize: 1rem; // 16px
 $baseFontColor: #000;
 
 // Colours
-$primary: #C3ABB5;
+$primary: #dbadc0;
 $primaryLight: #F9ECED;
-$secondary: #dbadc0;
+$secondary: #C3ABB5;
 $lightgrey: #F3F4F5;
 $text: $baseFontColor;
 $textLight: #435366;
@@ -24,8 +24,8 @@ $white: #fff;
 :root {
 
     // Colors
-    --fl1-primary: #C3ABB5;
-    --fl1-secondary: #dbadc0;
+    --fl1-primary: #dbadc0;
+    --fl1-secondary: #C3ABB5;
     --fl1-lightgrey: #F3F4F5;
     --fl1-text: #5A5072;
     --fl1-text-light: #b2aebd;
@@ -37,8 +37,8 @@ $white: #fff;
     --fl1-white: #fff;
 
     // Fonts
-    --fl1-primary-font: 'Quicksand', sans-serif;
-    --fl1-secondary-font: 'Quicksand', sans-serif;
+    --fl1-primary-font: 'Fraunces Light', sans-serif;
+    --fl1-secondary-font: 'Fraunces Regular', sans-serif;
     --fl1-base-font-size: 1rem;	// 16px
 
 	// Font sizes
@@ -49,7 +49,7 @@ $white: #fff;
 	--fl1-font-md: 1.25rem;  // 20px
 	--fl1-font-sm: 1.125rem; // 18px
 	--fl1-font-xs: 1rem; 	 // 16px
-	--fl1-font-xxs: 0.875rem; // 14px 
+	--fl1-font-xxs: 1.125rem; // 18px 
 	
 	// Spacing
 	--fl1-spacing-xxxl: 3rem; 	// 64px

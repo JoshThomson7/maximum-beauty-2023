@@ -58,12 +58,24 @@ Icon Grid
 
             .icon-grid__content {
 
-                h4 { font-size: 16px; color: var(--fl1-text); line-height: 22px; font-weight: 600;}
-                p { font-size: 14px; line-height: 23px; color: var(--fl1-text-light);
+                h4 { font-family: 'Fraunces Regular'; font-size: 20px; color: var(--fl1-text); line-height: 22px; margin-bottom: 40px; text-transform: uppercase;}
+                p { font-size: 16px; line-height: 23px; color: var(--fl1-text);
                     &:last-of-type { margin-bottom: 0;}
                 }
 
                 a { color:var(--fl1-text);}
+
+                ul{
+                    li{
+                        &.social{
+                            a{
+                                i{
+                                    font-size: 38px; color: var(--fl1-text);
+                                }
+                            }
+                        }
+                    }
+                }
 
             }
 

@@ -5,6 +5,7 @@ body {
 	font-weight: 400;
 	color: var(--fl1-text);
 	overflow-x: hidden;
+	letter-spacing: 1px;
 
 	&.no__scroll {
 		overflow: hidden;
@@ -116,8 +117,7 @@ img {
  * Buttons
  */
 .button {
-	font-family: var(--fl1-primary-font);
-	font-weight: 700;
+	font-family: 'Fraunces Bold';
 	font-size: var(--fl1-font-xs);
 	padding: var(--fl1-spacing-md) var(--fl1-spacing-lg);
 	display: flex;
@@ -160,7 +160,7 @@ img {
 
 	&.tiny {
 		padding: var(--fl1-spacing-sm);
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 1;
 	}
 

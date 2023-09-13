@@ -1,5 +1,7 @@
 <footer class="footer" role="contentinfo">
 
+    <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+
     <div class="max__width">
 
         <div class="footer-cols">
@@ -48,17 +50,17 @@
                     </figure> -->
 
                     <div class="footer-menu__heading">
-                        <h5>Connect</h5>
+                        <h5>Contact</h5>
                         <span class="menu-dropdown"><i class="fas fa-chevron-down"></i></span>
                     </div>
 
                     <ul>
-                        <li>105 High Street,<br>Old Town,<br>Stevenage,<br>Hertfordshire,<br>SG1 3HR</li>
+                        <li>105 High Street,<br>Old Town,<br>Stevenage,<br>Hertfordshire, SG1 3HR</li>
                         
                         <li class="social">
-                            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/maximumbeauty105/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/maximumbeautystevenage/?locale=en_GB" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@maximumbeauty105" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -67,8 +69,7 @@
 
         <div class="subfooter">
             <div class="subfooter--left">
-                <small>&copy;<?php date('Y'); ?> <?php bloginfo('name') ?>. All Rights Reserved.<br>
-                Registered No. 1234567.</small>
+                <small>&copy;<?php date('Y'); ?> <?php bloginfo('name') ?>. All Rights Reserved.</small>
             </div><!-- subfooter--left -->
 
             <div class="subfooter--right">

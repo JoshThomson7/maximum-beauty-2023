@@ -7,7 +7,7 @@
       "uuidString" : "681EB742-5211-49D1-A4AF-20F774D71A87"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34518",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -281,6 +281,102 @@
       "oAP" : "\/fonts\/fa\/fa-regular-400.woff2",
       "oF" : 0
     },
+    "\/fonts\/fraunces\/Fraunces72pt-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Bold.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Bold.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Bold.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Light.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Light.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Light.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Light.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Light.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Regular.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Regular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Regular.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Thin.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Thin.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Thin.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Thin.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fraunces\/Fraunces72pt-Thin.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fraunces\/Fraunces72pt-Thin.woff2",
+      "oF" : 0
+    },
     "\/fonts\/mont\/Mont-Bold.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -402,6 +498,19 @@
       "iS" : 21764,
       "oA" : 0,
       "oAP" : "\/img\/max-beauty-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/maximum_beauty_logo_rgb.png" : {
+      "ft" : 32768,
+      "iS" : 611047,
+      "oA" : 0,
+      "oAP" : "\/img\/maximum_beauty_logo_rgb.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3526,6 +3635,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/fonts\/_fraunces.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/fonts\/_fraunces.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/fonts\/_light.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -4791,9 +4915,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
