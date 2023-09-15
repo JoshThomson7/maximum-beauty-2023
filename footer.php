@@ -1,6 +1,6 @@
 <footer class="footer" role="contentinfo">
 
-    <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
+    <?php echo do_shortcode('[instagram-feed feed=2]'); ?>
 
     <div class="max__width">
 
@@ -51,7 +51,7 @@
 
                     <div class="footer-menu__heading">
                         <h5>Contact</h5>
-                        <span class="menu-dropdown"><i class="fas fa-chevron-down"></i></span>
+                        <!-- <span class="menu-dropdown"><i class="fas fa-chevron-down"></i></span> -->
                     </div>
 
                     <ul>

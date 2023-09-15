@@ -20,7 +20,7 @@
         }
     }
 
-    &.mm-menu { background: darken($primary, 4%);
+    &.mm-menu { background: $baseFontColor;
 
         .mm-panel { padding:0;
             .mm-navbar {

@@ -218,9 +218,9 @@
             a {
                 color: #fff;
 
-                &:hover {
-                    color: var(--fl1-secondary);
-                }
+                // &:hover {
+                //     color: var(--fl1-secondary);
+                // }
             }
         }
 
@@ -266,6 +266,10 @@
                         color: var(--fl1-secondary);
                         opacity: 1;
                     }
+                }
+
+                &.button{
+                    a:hover{color: white;}
                 }
 
                 &.social {
