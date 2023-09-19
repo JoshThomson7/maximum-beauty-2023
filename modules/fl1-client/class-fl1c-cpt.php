@@ -50,54 +50,12 @@ class FL1C_CPT {
 
         $submenu_pages = array(
             array(
-                'page_title'  => 'Banks',
-                'menu_title'  => 'Banks',
-                'capability'  => 'edit_posts',
-                'menu_slug'   => 'edit.php?post_type=bank',
-                'function'    => null,
-            ),
-            array(
-                'page_title'  => 'FAQs',
-                'menu_title'  => 'FAQs',
-                'capability'  => 'edit_posts',
-                'menu_slug'   => 'edit.php?post_type=faq',
-                'function'    => null,
-            ),
-				array(
-					'page_title'  => '',
-					'menu_title'  => '&nbsp;- Categories',
-					'capability'  => 'edit_posts',
-					'menu_slug'   => 'edit-tags.php?taxonomy=faq_category&post_type=faq',
-					'function'    => null,
-				),
-			array(
-				'page_title'  => 'Rates',
-				'menu_title'  => 'Rates',
-				'capability'  => 'edit_posts',
-				'menu_slug'   => 'edit.php?post_type=rate',
-				'function'    => null,
-			),
-            array(
                 'page_title'  => 'Team',
                 'menu_title'  => 'Team',
                 'capability'  => 'edit_posts',
                 'menu_slug'   => 'edit.php?post_type=team',
                 'function'    => null,
             ),
-            array(
-                'page_title'  => 'Testimonials',
-                'menu_title'  => 'Testimonials',
-                'capability'  => 'edit_posts',
-                'menu_slug'   => 'edit.php?post_type=testimonial',
-                'function'    => null,
-            ),
-				array(
-					'page_title'  => '',
-					'menu_title'  => '&nbsp;- Categories',
-					'capability'  => 'edit_posts',
-					'menu_slug'   => 'edit-tags.php?taxonomy=testimonial_category&post_type=testimonial',
-					'function'    => null,
-				),
         );
 
         foreach ( $submenu_pages as $submenu ) {
@@ -369,68 +327,6 @@ class FL1C_CPT {
 
     }
 
-    /**
-     * Testimonials CPT
-     */
-    private function register_testimonial_cpt() {
-
-        // CPT
-        $cpt = new FL1_CPT(
-            array(
-                'post_type_name' => 'testimonial',
-                'plural' => 'Testimonials',
-                'menu_name' => 'Testimonials'
-            ),
-            array(
-                'menu_position' => 21,
-                'rewrite' => array( 'slug' => 'testimonial', 'with_front' => true ),
-                'publicly_queryable' => false,
-                'generator' => FL1C_SLUG
-            )
-        );
-
-		// Taxonomies
-        $cpt->register_taxonomy(
-            array(
-                'taxonomy_name' => 'testimonial_category',
-                'slug' => 'testimonial_category',
-                'singular' => 'Testimonial Category',
-                'plural' => 'Testimonial Categories',
-				'public' => false,
-				'query_var' => false,
-				'rewrite' => false,
-				'publicly_queryable' => false
-            )
-        );
-
-        $cpt->columns(array(
-            'cb' => '<input type="checkbox" />',
-            //'rating' => __('Rating'),
-            'title' => __('Name'),
-            'quote' => __('Quote'),
-            'testimonial_category' => __('Categories'),
-        ));
-
-        // $cpt->populate_column('rating', function($column, $post) {
-
-        //     $post_id = $post->ID;
-        //     $testimonial = new FL1C_Testimonial($post_id);
-            
-        //     $testimonial->rating_display();
-        
-        // });
-
-        $cpt->populate_column('quote', function($column, $post) {
-
-            $post_id = $post->ID;
-            $testimonial = new FL1C_Testimonial($post_id);
-            
-            echo $testimonial->quote(30);
-        
-        });
-
-    }
-
     public function column_widths() {
         $screen = get_current_screen();
 
@@ -466,16 +362,16 @@ class FL1C_CPT {
 	 */
 	public function acf_init() {
 
-        if(function_exists('acf_add_options_sub_page')) {
+        // if(function_exists('acf_add_options_sub_page')) {
         
-            acf_add_options_sub_page(array(
-                'page_title'  => 'Settings',
-                'menu_title'  => 'Settings',
-                'menu_slug' => 'fl1c-settings',
-                'parent_slug' => FL1C_SLUG,
-            ));
+        //     acf_add_options_sub_page(array(
+        //         'page_title'  => 'Settings',
+        //         'menu_title'  => 'Settings',
+        //         'menu_slug' => 'fl1c-settings',
+        //         'parent_slug' => FL1C_SLUG,
+        //     ));
 
-        }
+        // }
 
     }
 
