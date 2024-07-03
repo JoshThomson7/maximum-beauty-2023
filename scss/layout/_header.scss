@@ -9,12 +9,13 @@ header.header {
 	background: $white;
 
     .header--site__wide__notice {
-        padding: 10px 0;
+        padding: 12px 0;
         background: var(--fl1-secondary);
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
-        color: #fff;
-        line-height: 19px;
+        color: #000;
+        line-height: 21px;
+        text-align: center;
         a {
             font-weight: 600;
         }

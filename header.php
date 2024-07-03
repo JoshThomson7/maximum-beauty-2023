@@ -21,13 +21,11 @@
     <div id="page">
         <header class="header">
 
-            <?php if (get_field('sitewide_notice_enable', 'option')) : ?>
-                <div class="header--site__wide__notice">
-                    <div class="max__width">
-                        <?php the_field('sitewide_notice', 'option'); ?>
-                    </div>
+            <div class="header--site__wide__notice">
+                <div class="max__width">
+                    <p>We now have a new booking system! All customers using it for the first time need to register a new account to book.</p>
                 </div>
-            <?php endif; ?>
+            </div>
 
             <div class="header__main">
 
